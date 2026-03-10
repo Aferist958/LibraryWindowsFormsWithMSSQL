@@ -22,6 +22,7 @@
 
     Для запуска должен быть включён SQL Server Management Studio 22
     ```
+    cd ./Library/ 
    dotnet run
    ```
     Если приложение не запустилось после этого, то переходим в bin\Debug\net10.0-windows\ и запускаем Library.exe
