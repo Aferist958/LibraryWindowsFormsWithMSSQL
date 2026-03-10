@@ -20,7 +20,7 @@
    
 3. Запуск
 
-    Для запуска должен быть включён SQL Server Management Studio 22
+    Для запуска должен быть включён SQL Server
     ```
     cd ./Library/ 
    dotnet run
