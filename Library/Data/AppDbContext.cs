@@ -11,7 +11,7 @@ namespace Library.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             DotEnv.Load(options: new DotEnvOptions(
-                envFilePaths: new[] { "../../../../.env" }
+                envFilePaths: new[] { "../.env" }
             ));
             var con = Environment.GetEnvironmentVariable("DB_CONNECTION");
             optionsBuilder.UseSqlServer(con);

@@ -77,7 +77,7 @@ namespace Library
             }
             catch
             {
-                MessageBox.Show("При поиске возникла ошибка");
+                MessageBox.Show("РџСЂРё РїРѕРёСЃРєРµ Р±С‹Р»Р° РѕР±РЅР°СЂСѓР¶РµРЅР° РѕС€РёР±РєР°");
             }
         }
 
