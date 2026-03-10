@@ -25,4 +25,3 @@
     cd ./Library/ 
    dotnet run
    ```
-    Если приложение не запустилось после этого, то переходим в bin\Debug\net10.0-windows\ и запускаем Library.exe
